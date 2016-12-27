@@ -19,7 +19,8 @@ def convert(*args):
 		raise FileFormatException("""\nError: Invalid file format provided.
 Read Support formats: tmTheme/tm, paletton_txt/pt""")
 
-	#python handles duplicate imports, albeit with overhead, but we will usually convert from one to a different format.
+	# python handles duplicate imports, albeit with overhead, but we will only convert from first to a second format,
+	# so worst case is possibly one duplicate import attempt
 	if target_format.lower() in [".jedit", "jedit"]:
 		from profiles import jedit
 		jedit.write(source_data)

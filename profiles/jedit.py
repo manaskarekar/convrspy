@@ -71,6 +71,5 @@ ir.eolMarkerColor,
 ir.lineHighlightColor,
 )
 
-	print data
 	f = open(ir.name.split('.')[0] + ".jedit-scheme", 'w+') #get path to root
 	f.write(data)

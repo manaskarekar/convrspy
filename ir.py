@@ -1,24 +1,26 @@
 class IR(object):
 	def __init__(self, *args):
-		self.name				= None
-		self.fgcolor			= None #: "#000000"
-		self.bgcolor			= None #: "#FFFFFF"
+		default_dark			= "#000000"
+		default_light			= "#FFFFFF"
+		self.name				= default_dark
+		self.fgcolor			= default_light
+		self.bgcolor			= default_dark 
 
-		self.keyword1			= None #: lines[7]
-		self.keyword2			= None #: lines[7]
-		self.keyword3			= None #: lines[7]
-		self.keyword4			= None #: lines[7]
+		self.keyword1			= default_dark
+		self.keyword2			= default_dark
+		self.keyword3			= default_dark
+		self.keyword4			= default_dark
 
-		self.comment1			= None #: lines[18]
-		self.digit				= None #: lines[25]
-		self.operator			= None #: lines[31]
-		self.function			= None #: lines[34]
+		self.comment1			= default_dark
+		self.digit				= default_dark
+		self.operator			= default_dark
+		self.function			= default_dark
 
-		self.literal1			= None #: lines[31]
-		self.literal2			= None #: lines[31]
-		self.literal3			= None #: lines[31]
-		self.caretColor			= None #: lines[31]
-		self.selectionColor		= None #: lines[31]
-		self.eolMarkerColor		= None #: lines[31]
-		self.lineHighlightColor = None #: lines[31]
+		self.literal1			= default_dark
+		self.literal2			= default_dark
+		self.literal3			= default_dark
+		self.caretColor			= default_dark
+		self.selectionColor		= default_dark
+		self.eolMarkerColor		= default_dark
+		self.lineHighlightColor = default_dark
 
