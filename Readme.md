@@ -16,10 +16,12 @@ A (very) quick rewrite of convrs from rust to python.
 ### General use
 
 - python convrspy.py < source_file > < source_format > < destination_format >
+- python convrspy.py < source_dir > < source_format > < destination_format >
 
 ### Example
 
-- python convrspy monokai.tmTheme tm jedit
+- python convrspy.py monokai.tmTheme tm jedit
+- python convrspy.py tmTheme_dir tm jedit
 
 ##### About Paletton
 
