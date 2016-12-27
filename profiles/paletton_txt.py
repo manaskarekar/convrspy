@@ -1,6 +1,5 @@
 import sys
 sys.path.insert(0, '../')
-
 from ir import IR
 
 def pick_color(line):
