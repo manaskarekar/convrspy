@@ -19,9 +19,9 @@ A (very) quick rewrite of convrs from rust to python.
 
 ### Example
 
-- python convrspy paletton_example1.txt pt jedit
+- python convrspy monokai.tmTheme tm jedit
 
-#### About Paletton
+##### About Paletton
 
 - www.paletton.com is a really nice website that lets you come up with color palettes.
 - For use with this converter, you would create a palette with "tetrad" colors, for now, and export as text.
